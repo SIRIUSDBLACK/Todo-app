@@ -1,0 +1,18 @@
+@import url(./node_modules/animate.css/animate.min.css);
+
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+
+.swal2-confirm{
+    @apply bg-stone-950 text-stone-50 rounded-none !important
+};
+.swal2-cancel{
+    @apply bg-stone-500 text-stone-50 rounded-none !important
+};
+.swal2-popup{
+    @apply rounded-none !important
+};
